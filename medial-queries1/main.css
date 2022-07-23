@@ -1,3 +1,42 @@
 body {
-  background: blanchedalmond;
+  background: rgb(34, 32, 28);
 }
+.a, .c {
+  border: 3px solid rgb(44, 44, 161);
+  height: 20vh;
+  margin: 10px;
+  flex-grow: 1;
+}
+.b {
+  border: 3px solid rgb(148, 34, 34);
+  height: 45vh;
+  margin: 10px;
+  flex-grow: 3;
+}
+.container {
+  border: 3px solid rgb(29, 73, 29);
+  display: flex;
+  flex-direction: column;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  .cont {
+    flex-direction: row;
+  }
+  .c {
+    height: 45vh;
+    width: 25%;
+  } 
+  .b {
+    width: 75%;
+  }
+}
+
+
+
+
+
+
